@@ -1,2 +1,2 @@
 # notes
-个人随笔 详见 Issues
+个人笔记 详见 Issues

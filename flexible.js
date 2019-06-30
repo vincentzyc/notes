@@ -16,25 +16,30 @@ maxWidth: 制作稿（页面）的最大宽度值，需要根据实际设置
     width > maxWidth && (width = maxWidth);
     rem = width * 100 / designWidth;
     docEl.style.fontSize = rem + 'px';
+    if (doc.body) setBodyStyle()
+  }
+
+  function setBodyStyle() {
+    doc.body.style.position = "relative";
+    doc.body.style.fontSize = 14 / rem + "rem";
+    doc.body.style.margin = "0 auto";
+    doc.body.style.maxWidth = maxWidth + "px";
   }
   refreshRem();
   win.addEventListener("resize", function() {
     clearTimeout(tid); //防止执行两次
-    tid = setTimeout(refreshRem, 300);
+    tid = setTimeout(refreshRem(), 300);
   }, false);
   win.addEventListener("pageshow", function(e) {
     if (e.persisted) { // 浏览器后退的时候重新计算
       clearTimeout(tid);
-      tid = setTimeout(refreshRem, 300);
+      tid = setTimeout(refreshRem(), 300);
     }
   }, false);
   win.addEventListener("DOMContentLoaded", function() {
-    doc.body.style.position = "relative";
-    doc.body.style.fontSize = 14/rem + "rem";
-    doc.body.style.margin = "0 auto";
-    doc.body.style.maxWidth = maxWidth + "px";
+    setBodyStyle()
   }, false);
 })(720, 640);
 
 //压缩版
-// !function(a,b){function h(){var c=e.getBoundingClientRect().width;b=b||540,c>b&&(c=b),f=100*c/a,e.style.fontSize=f+"px"}var g,c=document,d=window,e=c.documentElement,f=14;h(),d.addEventListener("resize",function(){clearTimeout(g),g=setTimeout(h,300)},!1),d.addEventListener("pageshow",function(a){a.persisted&&(clearTimeout(g),g=setTimeout(h,300))},!1),d.addEventListener("DOMContentLoaded",function(){c.body.style.position="relative",c.body.style.fontSize=14/f+"rem",c.body.style.margin="0 auto",c.body.style.maxWidth=b+"px"},!1)}(720,640);
+// !function(a,b){function h(){var d=e.getBoundingClientRect().width;b=b||540,d>b&&(d=b),f=100*d/a,e.style.fontSize=f+"px",c.body&&i()}function i(){c.body.style.position="relative",c.body.style.fontSize=14/f+"rem",c.body.style.margin="0 auto",c.body.style.maxWidth=b+"px"}var g,c=document,d=window,e=c.documentElement,f=14;h(),d.addEventListener("resize",function(){clearTimeout(g),g=setTimeout(h(),300)},!1),d.addEventListener("pageshow",function(a){a.persisted&&(clearTimeout(g),g=setTimeout(h(),300))},!1),d.addEventListener("DOMContentLoaded",function(){i()},!1)}(720,640);

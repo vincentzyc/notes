@@ -747,6 +747,7 @@ document.addEventListener('keydown', function(event){
 		"A" == event.srcElement.tagName && event.shiftKey //shift + 点击a标签
 	) || (event.returnValue = false)
 });
+
 //48、禁止右键、选择、复制
 ['contextmenu', 'selectstart', 'copy'].forEach(function(ev){
 	document.addEventListener(ev, function(event){

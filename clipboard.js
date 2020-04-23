@@ -78,7 +78,7 @@ export default Clipboard
 // /**
 //  * 默认复制成功函数
 //  */
-//  fnSuccess() {
+// function fnSuccess() {
 // 	alert('复制成功！')
 // }
 // /**

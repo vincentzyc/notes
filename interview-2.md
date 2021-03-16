@@ -19,8 +19,8 @@
 > 
 > 建议还是先从上篇基础开始哈~有个循序渐进的过程: 
 
-- [面试上篇](https://github.com/vincentzyc/notes/edit/master/interview-1.md)。
-- [面试下篇](https://github.com/vincentzyc/notes/edit/master/interview-3.md);
+- [面试上篇](https://github.com/vincentzyc/notes/blob/master/interview-1.md)。
+- [面试下篇](https://github.com/vincentzyc/notes/blob/master/interview-3.md);
 
 ## 进阶知识
 
@@ -973,6 +973,6 @@ SSR，俗称 **服务端渲染** (Server Side Render)，讲人话就是: 直接�
 
 当你开始面试高级工程师时，面试官便不再重点关注你会不会写`stopPropagation`或者会不会水平居中了，而是更在乎你自己的思考和研究能力了。表现出自己深入理解研究的成果，定会让面试官刮目相看。
 
-- [面试上篇](https://github.com/vincentzyc/notes/edit/master/interview-1.md)。
-- [面试下篇](https://github.com/vincentzyc/notes/edit/master/interview-3.md);
+- [面试上篇](https://github.com/vincentzyc/notes/blob/master/interview-1.md)。
+- [面试下篇](https://github.com/vincentzyc/notes/blob/master/interview-3.md);
 

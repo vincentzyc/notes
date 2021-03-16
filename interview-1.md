@@ -10,8 +10,8 @@
 
 中篇已新鲜出炉，速速杀入 
 
-- [面试中篇](https://github.com/vincentzyc/notes/edit/master/interview-2.md);
-- [面试下篇](https://github.com/vincentzyc/notes/edit/master/interview-3.md);
+- [面试中篇](https://github.com/vincentzyc/notes/blob/master/interview-2.md);
+- [面试下篇](https://github.com/vincentzyc/notes/blob/master/interview-3.md);
 
 
 ## 修炼原则
@@ -1482,8 +1482,8 @@ function cStairs(n) {
 
 由于精力时间及篇幅有限，这篇就先写到这。大家慢慢来不急。。🤪。调整下心态，继续 
 
-- [面试中篇](https://github.com/vincentzyc/notes/edit/master/interview-2.md);
-- [面试下篇](https://github.com/vincentzyc/notes/edit/master/interview-3.md);
+- [面试中篇](https://github.com/vincentzyc/notes/blob/master/interview-2.md);
+- [面试下篇](https://github.com/vincentzyc/notes/blob/master/interview-3.md);
 
 在面试中，很多领域并没有真正的答案，能回答到什么样的深度，还是得靠自己真正的去使用和研究。知识面的广度与深度应该并行，尽量的拓张自己的领域，至少都有些基础性的了解，在被问到的时候可以同面试官唠嗑两句，然后在自己喜欢的领域，又有着足够深入的研究，让面试官觉得你是这方面的专家。
 

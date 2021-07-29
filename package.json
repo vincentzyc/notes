@@ -1,0 +1,30 @@
+{
+  "name": "notes",
+  "version": "1.0.0",
+  "description": "个人笔记",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "docs:dev": "vuepress dev docs",
+    "docs:build": "vuepress build docs",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vincentzyc/notes.git"
+  },
+  "keywords": [
+    "notes",
+    "blog"
+  ],
+  "author": "vincentzyc",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/vincentzyc/notes/issues"
+  },
+  "homepage": "https://github.com/vincentzyc/notes#readme",
+  "devDependencies": {
+    "vuepress": "^2.0.0-beta.22"
+  }
+}

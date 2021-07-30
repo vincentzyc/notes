@@ -56,19 +56,6 @@ module.exports = {
         ],
       },
       {
-        text: "Go",
-        items: [
-          {
-            text: "介绍",
-            link: "/go/",
-          },
-          {
-            text: "40天",
-            link: "/go-40/",
-          },
-        ],
-      },
-      {
         text: "Flutter",
         items: [
           {

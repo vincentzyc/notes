@@ -22,10 +22,6 @@ module.exports = {
             link: "/javascript/",
           },
           {
-            text: "Angular",
-            link: "/angular/",
-          },
-          {
             text: "Vue",
             link: "/vue/",
           },
@@ -50,31 +46,14 @@ module.exports = {
             link: "/typescript/",
           },
           {
+            text: "正则",
+            link: "/regular/",
+          },
+          {
             text: "面试",
             link: "/interview/",
           },
         ],
-      },
-      {
-        text: "Flutter",
-        items: [
-          {
-            text: "基础",
-            link: "/flutter/",
-          },
-          {
-            text: "插件",
-            link: "/flutter-plugin/",
-          },
-          {
-            text: "深入",
-            link: "/flutter-deep/",
-          },
-        ],
-      },
-      {
-        text: "规范",
-        link: "/specification/",
       }
     ],
     sidebar: {
@@ -127,13 +106,6 @@ module.exports = {
           children: ["", "props", "vscode", "life", "other", "redux"],
         },
       ],
-      "/specification/": [
-        {
-          title: "代码规范",
-          collapsable: false,
-          children: ["", "git"],
-        },
-      ],
       "/interview/": [
         {
           title: "面试",
@@ -150,31 +122,6 @@ module.exports = {
             "http",
             "catch",
           ],
-        },
-      ],
-      "/flutter/": [
-        {
-          title: "Flutter",
-          collapsable: false,
-          children: [
-            "",
-            "flutter1",
-            "vscode",
-            "dio",
-            "iconfont",
-            "state",
-            "model",
-            "flare",
-            "build",
-            "other",
-          ],
-        },
-      ],
-      "/flutter-plugin/": [
-        {
-          title: "Flutter插件",
-          collapsable: false,
-          children: ["", "shared_preferences", "provider"],
         },
       ],
     },

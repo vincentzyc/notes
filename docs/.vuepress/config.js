@@ -106,6 +106,13 @@ module.exports = {
           children: ["", "props", "vscode", "life", "other", "redux"],
         },
       ],
+      "/regular/": [
+        {
+          title: "正则",
+          collapsable: false,
+          children: ["", "正则表达式特殊字符"],
+        },
+      ],
       "/interview/": [
         {
           title: "面试",

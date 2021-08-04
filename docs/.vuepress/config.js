@@ -75,7 +75,7 @@ module.exports = {
         {
           title: "Web",
           collapsable: false,
-          children: ["", "css", "kuayu", "proxy", "webpack", "emoji"],
+          children: ["", "单点登录", "css", "kuayu", "proxy", "webpack", "emoji"],
         },
       ],
       "/javascript/": [

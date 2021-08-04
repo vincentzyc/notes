@@ -71,11 +71,18 @@ module.exports = {
           children: ["", "nrm", "package"],
         },
       ],
+      "/css/": [
+        {
+          title: "CSS",
+          collapsable: false,
+          children: ["", "css"],
+        },
+      ],
       "/web/": [
         {
           title: "Web",
           collapsable: false,
-          children: ["", "单点登录", "css", "kuayu", "proxy", "webpack", "emoji"],
+          children: ["", "单点登录", "kuayu", "proxy", "webpack", "emoji"],
         },
       ],
       "/javascript/": [

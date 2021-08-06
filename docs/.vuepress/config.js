@@ -18,6 +18,10 @@ module.exports = {
             link: "/web/",
           },
           {
+            text: "Css",
+            link: "/css/",
+          },
+          {
             text: "JavaScript",
             link: "/javascript/",
           },

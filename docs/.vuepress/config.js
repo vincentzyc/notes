@@ -65,7 +65,7 @@ module.exports = {
         {
           title: "Web",
           collapsable: false,
-          children: ["", "base-type", "类型推断和兼容", "types自动生成"],
+          children: ["", "base-type", "type-inference", "types-auto-create"],
         },
       ],
       "/nodejs/": [
@@ -79,14 +79,14 @@ module.exports = {
         {
           title: "CSS",
           collapsable: false,
-          children: ["", "css"],
+          children: ["", "css", "pseudo-classes-element"],
         },
       ],
       "/web/": [
         {
           title: "Web",
           collapsable: false,
-          children: ["", "单点登录", "kuayu", "proxy", "webpack", "emoji"],
+          children: ["", "single-sign-in", "kuayu", "proxy", "webpack", "emoji"],
         },
       ],
       "/javascript/": [
@@ -121,7 +121,7 @@ module.exports = {
         {
           title: "正则",
           collapsable: false,
-          children: ["", "正则表达式特殊字符"],
+          children: ["", "regular-special-char"],
         },
       ],
       "/interview/": [

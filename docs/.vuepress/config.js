@@ -79,7 +79,7 @@ module.exports = {
         {
           title: "CSS",
           collapsable: false,
-          children: ["", "css", "pseudo-classes-element"],
+          children: ["", "css", "sticky", "pseudo-classes-element"],
         },
       ],
       "/web/": [

@@ -32,7 +32,9 @@
 ### 例 1
 下面的例子里定义了一个路径，从点 150,0 开始，连直线到点 75,200，然后连直线到点 225,200，最后闭合这个路径，连直线回到点 150,0:
 
-![](./img/svg1.png "svg1.png")
+<svg height="210" width="400">
+  <path d="M150 0 L75 200 L225 200 Z" />
+</svg>
 
 上面的例子使用了下面的SVG代码：
 
@@ -42,13 +44,34 @@
 </svg>
 ```
 
-
 ### 例 2
 贝塞尔曲线是一种非常顺滑的曲线。通常，用户需要提供两个端点和一个或两个控制点。使用一个控制点的贝塞尔曲线叫做二次方贝塞尔曲线，使用两个控制点的贝塞尔曲线叫做三次方贝塞尔曲线。
 
 下面的例子里使用了二次方贝塞尔曲线，其中 A 和 C 分别是两个端点，B是控制点：
 
-![](./img/svg2.png "svg2.png")
+  <svg height="400" width="450">
+	  <path id="lineAB" d="M 100 350 l 150 -300" stroke="red"
+	  stroke-width="3" fill="none" />
+	  <path id="lineBC" d="M 250 50 l 150 300" stroke="red"
+	  stroke-width="3" fill="none" />
+	  <path d="M 175 200 l 150 0" stroke="green" stroke-width="3"
+	  fill="none" />
+	  <path d="M 100 350 q 150 -300 300 0" stroke="blue"
+	  stroke-width="5" fill="none" />
+	  <!-- Mark relevant points -->
+	  <g stroke="black" stroke-width="3" fill="black">
+	    <circle id="pointA" cx="100" cy="350" r="3" />
+	    <circle id="pointB" cx="250" cy="50" r="3" />
+	    <circle id="pointC" cx="400" cy="350" r="3" />
+	  </g>
+	  <!-- Label the points -->
+	  <g font-size="30" font-family="sans-serif" fill="black" stroke="none"
+	  text-anchor="middle">
+	    <text x="100" y="350" dx="-30">A</text>
+	    <text x="250" y="50" dy="-10">B</text>
+	    <text x="400" y="350" dx="30">C</text>
+	  </g>
+	</svg>
 
 上面的例子里使用了下面的SVG代码：
 ```html
@@ -75,5 +98,22 @@
 	    <text x="400" y="350" dx="30">C</text>
 	  </g>
 	</svg>
+```
+
+### 例3
+<svg height="120" viewBox="0 0 1024 1024" width="120">
+  <circle cx="512" cy="420" r="160" stroke="#FD7991"stroke-width="60" fill="none"/>
+  <path d="M805 124a407 407 0 0 0-586 0 431 431 0 0 0 0 599L512 1024l293-300a431 431 0 0 0 0-599z m-44 557l-248 255 -248-255 a365 365 0 0 1 0 -508 346 346 0 0 1 497 0 365 365 0 0 1 0 508Z" 
+	fill="#FD7991">
+  </path>
+</svg>
+
+```html
+<svg height="120" viewBox="0 0 1024 1024" width="120">
+  <circle cx="512" cy="420" r="160" stroke="#FD7991"stroke-width="60" fill="none"/>
+  <path d="M805 124a407 407 0 0 0-586 0 431 431 0 0 0 0 599L512 1024l293-300a431 431 0 0 0 0-599z m-44 557l-248 255 -248-255 a365 365 0 0 1 0 -508 346 346 0 0 1 497 0 365 365 0 0 1 0 508Z" 
+	fill="#FD7991">
+  </path>
+</svg>
 ```
 

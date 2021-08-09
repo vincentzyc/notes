@@ -86,7 +86,7 @@ module.exports = {
         {
           title: "Web",
           collapsable: false,
-          children: ["", "single-sign-in", "kuayu", "proxy", "webpack", "emoji"],
+          children: ["", "single-sign-in", "kuayu", "proxy", "webpack", "emoji", "svg", "svg-stroke"],
         },
       ],
       "/javascript/": [

@@ -79,14 +79,14 @@ module.exports = {
         {
           title: "CSS",
           collapsable: false,
-          children: ["", "css", "sticky", "pseudo-classes-element"],
+          children: ["", "css", "sticky", "pseudo-classes-element", "grid"],
         },
       ],
       "/web/": [
         {
           title: "Web",
           collapsable: false,
-          children: ["", "single-sign-in", "kuayu", "proxy", "webpack", "emoji", "svg", "svg-stroke"],
+          children: ["", "single-sign-in", "kuayu", "proxy", "webpack", "emoji", "svg", "svg-stroke", "http-status"],
         },
       ],
       "/javascript/": [
